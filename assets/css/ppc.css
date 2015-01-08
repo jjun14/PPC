@@ -1,3 +1,5 @@
+/***  Header  ***/
+
 #header {
   height: 94px;
   width: 878px;
@@ -17,6 +19,8 @@
   font-size: 16px;
   font-weight: bold;
 }
+
+/*  Nav-Bar  */
 
 #header ul {
   margin: 0px 0px 0px 0px;
@@ -38,12 +42,14 @@
   border-left: 1px solid rgb(195, 195, 195);
 }
 
+/***  Main Content  ****/
+
 #content {
   height: 480px;
   width: 852px;
-  background-color: black;
   padding-top: 12px;
   padding-left: 26px;
+  background-color: black;
 }
 
 .bulk-fill {
@@ -136,10 +142,10 @@
 
 .info-heading {
   background-color: #FDD520;
-  font-size: 10px;
-  font-weight: bold;
   margin: 0px;
   padding: 4px 0px 4px 10px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .info-image {
@@ -148,10 +154,10 @@
 }
 
 .info-description {
+  margin: 5px 28px 0px 14px;
   font-size: 8.5px;
   font-family: sans-serif;
   text-align: left;
-  margin: 5px 28px 0px 14px;
 }
 
 .bottom-info input {
@@ -160,4 +166,4 @@
 
 .bottom-info:last-child input:last-child{
   margin-top: 5px;
-};
+}
